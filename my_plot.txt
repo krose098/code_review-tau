@@ -38,10 +38,10 @@ plt.ylabel('Intensity')
 plt.figure()
 plt.plot(np.arange(1024), col3)
 mean = np.mean(col3)
+
 plt.axhline(mean)
 plt.legend(['Column 800', 'Mean'])
 plt.title('Plot of Column 800 Values and Mean')
 plt.xlabel('Pixels')
-plt.ylabel('Intensity')
+plt.ylabel('Intensityyyyyy')
 plt.show()
-
